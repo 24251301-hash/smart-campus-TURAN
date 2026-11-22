@@ -1,0 +1,22 @@
+[
+  {
+    "scenario": "S1 Обзор показателей группы",
+    "status": "passed"
+  },
+  {
+    "scenario": "S2 Фильтрация и поиск студента",
+    "status": "passed"
+  },
+  {
+    "scenario": "S3 Просмотр профиля и рекомендации",
+    "status": "passed"
+  },
+  {
+    "scenario": "S4 Аналитика и источник модели",
+    "status": "passed"
+  },
+  {
+    "scenario": "S5 Мобильная компоновка",
+    "status": "passed"
+  }
+]

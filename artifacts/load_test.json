@@ -1,0 +1,13 @@
+{
+  "requests": 100,
+  "concurrency": 12,
+  "successful": 100,
+  "errors": 0,
+  "duration_seconds": 0.187,
+  "requests_per_second": 534.0,
+  "latency_ms": {
+    "median": 21.17,
+    "p95": 27.21,
+    "maximum": 34.2
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "dataset": "xAPI-Edu-Data",
+  "rows": 480,
+  "training_rows": 360,
+  "test_rows": 120,
+  "validation_accuracy": 0.708,
+  "validation_macro_f1": 0.720,
+  "random_state": 20261024,
+  "note": "Учебная внешняя валидация; требуется проверка на обезличенных локальных данных университета."
+}

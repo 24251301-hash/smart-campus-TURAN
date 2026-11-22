@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#102b46">
+  <title>Smart Campus TURAN</title>
+  <link rel="stylesheet" href="/static/style.css">
+  <script src="/static/app.js" defer></script>
+</head>
+<body>
+<div id="auth-root" hidden></div>
+<div class="app-shell" id="app-shell">
+  <aside class="sidebar" aria-label="Основное меню">
+    <a class="brand" href="#/overview" aria-label="Smart Campus TURAN: на главную"><strong>SMART CAMPUS</strong><span>TURAN</span></a>
+    <nav class="sidebar-nav" id="main-nav">
+      <a href="#/overview" data-route="overview"><span class="nav-icon">⌂</span>Обзор</a>
+      <a href="#/students" data-route="students"><span class="nav-icon">●</span>Студенты</a>
+      <a href="#/analytics" data-route="analytics"><span class="nav-icon">◆</span>Аналитика</a>
+      <a href="#/analytics?section=alerts" data-route="risks"><span class="nav-icon">!</span>Риски</a>
+      <a href="#/profile" data-route="profile"><span class="nav-icon">☺</span>Мой профиль</a>
+    </nav>
+    <div class="side-foot">Мониторинг учебного процесса<br>Learning Analytics + AI<br><span>Университет «Туран»</span></div>
+  </aside>
+  <div class="workspace">
+    <header class="topbar">
+      <div><div class="eyebrow">Университет «Туран» · система поддержки преподавателя</div><div class="mobile-brand">SMART CAMPUS <span>TURAN</span></div></div>
+      <div class="top-user" id="top-user"><a class="top-user-link" href="#/profile" title="Мой профиль"><div><b id="top-user-name">Пользователь</b><span id="top-user-role">Smart Campus</span></div><div class="avatar-user" id="top-user-avatar">?</div></a><button class="logout-btn" id="logout-btn" type="button" title="Выйти из аккаунта" aria-label="Выйти из аккаунта">Выйти</button></div>
+    </header>
+    <main class="main-content" id="app" tabindex="-1" aria-live="polite">
+      <div class="loading"><div class="spinner"></div><p>Загрузка учебных показателей…</p><p class="wake-note delayed">Сервер запускается после простоя — это может занять до минуты. Пожалуйста, не закрывайте страницу.</p></div>
+    </main>
+    <footer class="page-footer"><span>Smart Campus TURAN · учебный проект по ИИ</span><span>Демо-данные · без подключения к университетской LMS</span></footer>
+  </div>
+</div>
+<div id="toast-container" aria-live="polite" aria-atomic="true"></div>
+</body>
+</html>
